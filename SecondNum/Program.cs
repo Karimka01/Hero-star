@@ -8,11 +8,11 @@ namespace ConsoleApp1
         static void Main(string[] args)
         {
             var rand = new Random();
-            int width;
-            int height;
+            int width = Console.WindowWidth;
+            int height = Console.WindowHeight;
             Console.ForegroundColor = ConsoleColor.Green;
-            width = Console.WindowWidth;
-            height = Console.WindowHeight;
+            //width = Console.WindowWidth;
+            //height = Console.WindowHeight;
             string text = "1234567890ABCDEFGHIJKLMNOPQRSTUVWXYZ/-+=/][.,";
             while (true)
             {
