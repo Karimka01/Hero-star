@@ -11,8 +11,7 @@ namespace ConsoleApp1
             int width = Console.WindowWidth;
             int height = Console.WindowHeight;
             Console.ForegroundColor = ConsoleColor.Green;
-            //width = Console.WindowWidth;
-            //height = Console.WindowHeight;
+         
             string text = "1234567890ABCDEFGHIJKLMNOPQRSTUVWXYZ/-+=/][.,";
             while (true)
             {
